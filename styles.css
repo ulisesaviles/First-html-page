@@ -54,7 +54,7 @@ body {
 }
 
 .main_header {
-    background-image: url("images/header_background.jpeg");
+    background-image: url("header_background.jpeg");
     background-blend-mode: multiply;
     background-size: cover;
     background-position: center;
