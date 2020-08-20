@@ -1,0 +1,371 @@
+@font-face {
+    font-family: "Housttely Signature";
+    src: url("Course2/Fonts/Housttely Signature.ttf") format("ttf");
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    font-size: 1em; /* "vw" changes the font size depening on the size of the screen*/
+    color: white;
+    text-decoration: none;
+    margin: 0.3em;
+    border-radius: 5px;
+}
+
+.nav {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.main_nav {
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.nav li {
+    padding: 0% 5%
+}
+
+.nav a:hover {
+    background-color: rgba(255,255,255,0.2);
+}
+
+body {
+    background-color: #161616;
+    color: white;
+}
+
+.main_header {
+    background-image: url("images/header_background.jpeg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+}
+
+.header_gradient {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(22,22,22,1));
+}
+
+.BadBunny {
+    text-align: center;
+    margin: 0;
+    font-family: 'Housttely Signature';
+    font-weight: lighter;
+    color: rgba(255,255,255,0.9);
+    vertical-align: middle;
+}
+
+.BadBunny_Large {
+    font-size: 4em;
+    padding: 8vw;
+}
+
+.page_title {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: normal;
+    font-family: 'Verdana';
+}
+
+.content_section {
+    margin: 2em;
+}
+
+.container {
+    align-content: center;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 1.5em;
+}
+
+.about_image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 0 1em;
+    shape-outside: circle();
+    margin: 2em
+}
+
+.main_footer {
+    margin-top: 100px;
+    background-color: #0e0e0e;
+    padding: 0.25em 0;
+}
+
+.main_footer_container {
+    display: flex;
+    align-items: center;
+}
+
+.main_footer_container ul{
+    flex-grow: 1;
+    text-align: right;
+    
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(rgba(0,0,0,0),rgb(46, 46, 46));
+    border-radius: 6px;
+}
+
+.btn {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    margin: 0 auto;
+    display: block;
+    border: 0px;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.get_latest_album {
+    padding: 0.67em 2em;
+    border-radius: 7px;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+
+.play_btn {
+    padding: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    font-size: 2em;
+}
+
+.BadBunny_Large_header {
+    font-size: 4em;
+    padding: 3vw;
+}
+
+.tour_row {
+    border-bottom: 0.5px solid rgb(69, 69, 69);
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.tour_row:last-child {
+    border-bottom: 0;
+}
+
+.tour_item {
+    display: inline-block;
+    padding-right: 0.5em;
+}
+
+.tour_date {
+    font-weight: bolder;
+    width: 11%;
+}
+
+.tour_city {
+    width: 24%;
+}
+.tour_arena {
+    width: 42%;
+}
+
+.tour_btn {
+    max-width: 19%;
+    border-radius: 10px;
+    padding: 0.5em 1em;
+    border: 0;
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+.tour_btn:hover {
+    background-color: rgb(100,100,100);
+}
+
+.shop_item {
+    margin: 30px;
+    width: 280px;
+}
+
+.shop_item {
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.shop_item:hover {
+    background-color: rgb(49, 49, 49);
+}
+
+.shop_item_title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.shop_item_image {
+    height: 250px;
+    border-radius: 5px;
+}
+
+.shop_item_details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop_item_price {
+    flex-grow: 1;
+}
+
+.shop_items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.shop_item_purchaseBtn {
+    background-color: rgb(50, 50, 50);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.shop_item_purchaseBtn:hover {
+    background-color: rgb(100, 100, 100);
+}
+
+.cart_header {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.cart_column {
+    border-bottom: 1px solid white;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.cart_row {
+    display: flex;
+}
+
+.cart_item {
+    width: 45%;
+}
+
+.cart_price {
+    width: 25%;
+    font-size: 1.2em;
+}
+
+.cart_quantity {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart_item_title {
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart_item_image {
+    width: 75px;
+    height: auto;
+}
+
+.cart_quantity_input {
+    border-radius: 6px;
+    width: 50px;
+    height: 34px;
+    border: 1px solid rgb(50, 50, 50);
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.quantity_remove_btn {
+    background-color: rgb(184, 56, 56);
+    padding: 9px 30px;
+    border-radius: 8px;
+    color: white;
+    border: 0;
+}
+
+.quantity_remove_btn:hover {
+    background-color: rgb(186, 91, 91);
+}
+
+.cart_row:last-child {
+    border-bottom: 1px solid white;
+}
+
+.cart_row:last-child .cart_column {
+    border-bottom: 0;
+}
+
+.cart_total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart_total_title {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-right: 20px;
+}
+
+.cart_total_price {
+    font-size: 1.1em;
+}
+
+.purchase_btn {
+    background-color: rgb(40, 126, 40);
+    display: block;
+    margin: 40px auto 0 auto;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+    box-shadow: 2px 2px 10px rgb(10, 10, 10);
+}
+
+.purchase_btn:hover {
+    background-color: rgb(66, 130, 66);
+}
+
+/* .btn {
+    /* box-shadow: 2px 2px 10px rgb(10, 10, 10); */
+} */
