@@ -58,6 +58,7 @@ body {
     background-blend-mode: multiply;
     background-size: cover;
     background-position: center;
+    height: 50%;
 }
 
 .header_gradient {
