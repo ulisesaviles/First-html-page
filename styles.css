@@ -51,6 +51,7 @@ html, body {
 body {
     background-color: #161616;
     color: white;
+    min-width: 700px;
 }
 
 .main_header {
@@ -58,11 +59,11 @@ body {
     background-blend-mode: multiply;
     background-size: cover;
     background-position: center;
-    height: 50%;
 }
 
 .header_gradient {
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(22,22,22,1));
+    height: 60vh;
 }
 
 .BadBunny {
@@ -75,7 +76,7 @@ body {
 }
 
 .BadBunny_Large {
-    font-size: 4em;
+    font-size: 10vw;
     padding: 8vw;
 }
 
@@ -147,23 +148,29 @@ body {
 }
 
 .get_latest_album {
-    padding: 0.67em 2em;
+    padding: 2vh;
     border-radius: 7px;
-    font-size: 1em;
+    font-size: 2vh;
     letter-spacing: 1px;
 }
 
 .play_btn {
     padding: 0;
-    width: 80px;
-    height: 80px;
+    width: 9vh;
+    height: 9vh;
     border-radius: 50%;
-    font-size: 2em;
+    font-size: 4vh;
 }
 
 .BadBunny_Large_header {
-    font-size: 4em;
-    padding: 3vw;
+    font-size: 8vh;
+    padding: 3vh;
+    padding-bottom: 3vh;
+}
+
+.index_header {
+    height: 65%;
+    max-height: 1000px;
 }
 
 .tour_row {
