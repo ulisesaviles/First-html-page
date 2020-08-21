@@ -155,16 +155,16 @@ body {
 .get_latest_album {
     padding: 2vh;
     border-radius: 7px;
-    font-size: 2vh;
+    font-size: 1.5em;
     letter-spacing: 1px;
 }
 
 .play_btn {
     padding: 0;
-    width: 9vh;
-    height: 9vh;
+    width: 3em;
+    height: 3em;
     border-radius: 50%;
-    font-size: 4vh;
+    font-size: 2em;
 }
 
 .BadBunny_Large_header {
