@@ -63,7 +63,7 @@ body {
 
 .header_gradient {
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgb(17, 17, 17));
-    height: 45vh;
+    height: 60vh;
 }
 
 .BadBunny {
@@ -76,8 +76,8 @@ body {
 }
 
 .BadBunny_Large {
-    font-size: 7vw;
-    padding: 7vw;
+    font-size: 8vmin;
+    padding: 7vh;
 }
 
 .page_title {
