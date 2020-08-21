@@ -76,8 +76,13 @@ body {
 }
 
 .BadBunny_Large {
-    font-size: 8vmin;
-    padding: 7vh;
+    font-size: 5em;
+    /* padding: 7vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12vh;
+    max-height: 400px;
 }
 
 .page_title {
