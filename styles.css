@@ -1,8 +1,3 @@
-@font-face {
-    font-family: "Housttely Signature";
-    src: url("MyOwnPortfolio/Housttely Signature.ttf") format("ttf");
-}
-
 * {
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
