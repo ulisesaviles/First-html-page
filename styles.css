@@ -68,20 +68,15 @@ body {
 }
 
 .BadBunny {
-    text-align: center;
-    margin: 0;
-    font-family: 'Housttely Signature';
-    font-weight: lighter;
-    color: rgba(255,255,255,0.9);
-    vertical-align: middle;
+    width: 150px;
 }
 
 .BadBunny_Large {
-    font-size: 5em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 12vh;
+    width: 40%;
     max-height: 400px;
 }
 
