@@ -1,2 +1,4 @@
-# MyOwnPortfolio
-I will store all the files that compose my personal portfolio in this repository
+# My first html static page #
+A static page that serves no other porpouse than learning html and css
+## website link: ##
+https://ulisesaviles.github.io/First-html-page/store.html
